@@ -1,13 +1,23 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>sistema-caixa</title>
+    <title>Sistema de Caixa V2</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    
+    <script>
+    // 1. CORREÇÃO: __app_id deve ser o mesmo que projectId para consistência no Firestore
+    const __app_id = 'caixa-a010b'; 
+    
+    // 2. CONFIG CORRETA: O seu objeto de configuração do Firebase, completo.
+    const __firebase_config = '{"apiKey":"AIzaSyBAlu02TqDChIfRE2ufDHZZpsCsWlH3YfQ","authDomain":"caixa-a010b.firebaseapp.com","projectId":"caixa-a010b","storageBucket":"caixa-a010b.firebasestorage.app","messagingSenderId":"31322497531","appId":"1:31322497531:web:b37e7ae0bcdada10596b5e","measurementId":"G-PFWJL0F30Q"}';
+    
+    const __initial_auth_token = null; 
+</script>
   </body>
 </html>
